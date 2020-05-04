@@ -1,0 +1,9 @@
+---
+
+- hosts:
+        - dns
+  become: yes
+  roles:
+    - roles/knot-resolver
+
+

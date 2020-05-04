@@ -1,0 +1,9 @@
+---
+
+- hosts:
+    - ns_slave
+  become: yes
+  roles:
+    - roles/coredns-slave
+    - roles/promtail
+

@@ -1,0 +1,19 @@
+---
+
+- hosts: 
+    - local 
+    - vpn
+    - monitoring
+    - ns
+    - dns
+    - kalt
+    - c9
+    - git
+    - bastion
+    - bw
+    - lamp
+    - jenkins
+  become: yes
+  roles:
+    - roles/bootstrap
+    - roles/node_exporter

@@ -1,0 +1,11 @@
+---
+
+- hosts: 
+    - local
+    - ns
+    - git
+    - lamp
+    - vpn
+  become: yes
+  roles:
+    - promtail

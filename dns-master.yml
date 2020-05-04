@@ -1,0 +1,8 @@
+---
+
+- hosts:
+    - ns_master
+  become: yes
+  roles:
+    - roles/coredns-master
+    - roles/promtail

@@ -1,1 +1,1 @@
-*.yml text linguist-language=HTML+Django eol=lf
+*.yml text linguist-language=YAML eol=lf
